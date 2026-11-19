@@ -195,7 +195,7 @@
           <div class="pola"><div class="photo">💋</div><h3>Goodbye kisses</h3><p>Small, quick, and enough to keep me smiling all the way home.</p></div>
           <div class="pola"><div class="photo">♟️</div><h3>Chess</h3><p>You win, I sulk, you grin. Honestly, worth losing for.</p></div>
           <div class="pola"><div class="photo">📱</div><h3>Video calls</h3><p>Every single day, ending with a 'five more minutes' that is never five.</p></div>
-          <div class="pola"><div class="photo">☕</div><h3>Coffee Haus</h3><p>You stepped out for a smoke break and I tagged along. No big talk, just us side by side, and it was perfect.</p></div>
+          <div class="pola"><div class="photo">☕</div><h3>Coffee Haus</h3><p>And i swear you are my most fav person to smoke with, just us side by side, and its always perfect.</p></div>
         </div>
         <div class="dateshots">
           <h3>Restaurant date 🍽️</h3>
@@ -276,7 +276,7 @@
       if (b.classList.contains("revealed")) return;
       b.classList.add("revealed"); b.innerHTML = '<span class="no">#' + (i+1) + '</span>' + r;
       opened++; const c = document.getElementById("reasonCount");
-      c.textContent = opened === 10 ? "All 10 opened. That's the list (for now). 💗" : opened + " / 10 notes opened";
+      c.textContent = opened === 10 ? "All 10 opened. That's the list (for now). 🤎" : opened + " / 10 notes opened";
     });
     grid.appendChild(b);
   });
@@ -304,12 +304,12 @@
     setTimeout(() => document.getElementById("scanfill").style.width = "100%", 50);
     setTimeout(() => {
       text.innerHTML += "<br>C:\\SYSTEM> all tests passed. obviously.";
-      const stats = [["Handsome level","100%"],["Cuteness","999%"],["Patience & green flags","MAX"],["Movie references","UNLIMITED"],["Chess rival status","ANNOYINGLY GOOD"],["Place in my heart","PERMANENT"]];
+      const stats = [["Handsome level"," 100% "],["Cuteness"," 999% "],["Patience & green flags"," MAX "],["Movie references and Memes"," UNLIMITED "],["Chess rival status"," ANNOYINGLY GOOD "],["Place in my heart"," PERMANENT hehe "]];
       const grid = document.getElementById("stats");
       stats.forEach((st,i) => { const d = document.createElement("div"); d.className = "stat"; d.style.animationDelay = (i * 0.25) + "s"; d.innerHTML = st[0] + "<strong>" + st[1] + "</strong>"; grid.appendChild(d); });
       setTimeout(() => {
         document.getElementById("scanVerdict").hidden = false;
-        ["💗","💛","✨","🌸","💜","🦋","💗","✨"].forEach((e,i) => { const h = document.createElement("span"); h.className = "rise"; h.textContent = e; h.style.left = (8 + i * 12) + "%"; h.style.animationDelay = (i * 0.12) + "s"; box.appendChild(h); setTimeout(() => h.remove(), 3000); });
+        ["🤎","🤍","✨","🌸","🩵","🦋","🩷","✨"].forEach((e,i) => { const h = document.createElement("span"); h.className = "rise"; h.textContent = e; h.style.left = (8 + i * 12) + "%"; h.style.animationDelay = (i * 0.12) + "s"; box.appendChild(h); setTimeout(() => h.remove(), 3000); });
       }, 1700);
     }, 2000);
   });
